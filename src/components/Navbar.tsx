@@ -15,7 +15,7 @@ const pages = ["About", "Skills", "Projects", "Contact"];
 function Navbar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
-  const handleOpenNavMenu = (event) => {
+  const handleOpenNavMenu = (event: any) => {
     setAnchorElNav(event.currentTarget);
   };
 
