@@ -1,7 +1,8 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import { IconCloudDemo } from './components/IconCloud';
+import { Skills } from './components/Skills';
 import { Stack } from '@mui/material';
+
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
     <div className="App">
       <Stack spacing={10}>
           <Navbar/>
-        <IconCloudDemo/>
+        <Skills/>
       </Stack>
     </div>
   );
