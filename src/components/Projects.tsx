@@ -15,7 +15,7 @@ const projects = [
         name: "RecipEZ",
         role: "Fullstack Developer",
         description: "RecipEZ is a website for users to share and view recipes of other users without any unnecessary information. Note: The recipes page may take up to 1 minute to fully load on the 1st render.",
-        link: "https://recipez-v63x.onrender.com/recipes",
+        link: "https://recipez-v63x.onrender.com",
         image: recipez
     }
 ];
