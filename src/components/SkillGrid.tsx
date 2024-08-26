@@ -43,7 +43,7 @@ const SkillGrid = () => {
   return (
     <Grid container spacing={2}>
         <Grid xs={12} md={6}>
-          <Paper elevation={12} sx={{height: 250, backgroundColor: "#403e3e"}}>
+          <Paper elevation={12} sx={{height: 250, backgroundColor: "#30302f"}}>
             <Typography variant="h5" sx={{ margin:"auto", textAlign:"center", color: "#b399d4"}}>
               Web Development
             </Typography>
@@ -55,7 +55,7 @@ const SkillGrid = () => {
           </Paper>
         </Grid>
         <Grid xs={12} md={6}>
-        <Paper elevation={12} sx={{height: 250, backgroundColor: "#403e3e"}}>
+        <Paper elevation={12} sx={{height: 250, backgroundColor: "#30302f"}}>
         <Typography variant="h5" sx={{ margin:"auto", textAlign:"center", color: "#d4c399"}}>
               DevOps
             </Typography>
@@ -67,7 +67,7 @@ const SkillGrid = () => {
           </Paper>
         </Grid>
         <Grid xs={12} md={6}>
-        <Paper elevation={12} sx={{height: 250, backgroundColor: "#403e3e"}}>
+        <Paper elevation={12} sx={{height: 250, backgroundColor: "#30302f"}}>
         <Typography variant="h5" sx={{ margin:"auto", textAlign:"center", color: "#bad499"}}>
               Embedded Systems
             </Typography>
@@ -79,7 +79,7 @@ const SkillGrid = () => {
           </Paper>
         </Grid>
         <Grid xs={12} md={6}>
-        <Paper elevation={12} sx={{height: 250, backgroundColor: "#403e3e"}}>
+        <Paper elevation={12} sx={{height: 250, backgroundColor: "#30302f"}}>
         <Typography variant="h5" sx={{ margin:"auto", textAlign:"center", color: "#d499ba"}}>
               Other
             </Typography>
