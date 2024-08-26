@@ -5,8 +5,8 @@ import Image from '../components/images/image.png'
 
 const About = () => {
   return (
-    <div className="relative flex h-full w-full max-w-[32rem] items-center justify-center overflow-hidden rounded-lg border bg-background px-20 pb-20 pt-8 ">
-      <Typography variant="h2" sx={{ margin:"auto", textAlign:"center" }}>Welcome</Typography>
+    <div id='About' className="relative flex h-full w-full max-w-[32rem] items-center justify-center overflow-hidden rounded-lg border bg-background px-20 pb-20 pt-8 ">
+      <Typography  variant="h2" sx={{ margin:"auto", textAlign:"center" }}>Welcome</Typography>
       <img src={Image} alt='headshot' style={{ height: "500px", display: "block", marginLeft: "auto", marginRight: "auto", borderRadius: "10%", padding: "20px"}}/>
       <Paper elevation={12} sx={{backgroundColor: "#30302f", color: "#b399d4"}}>
       <Typography variant="h4" sx={{ margin:"auto", textAlign:"center" }}>About Me</Typography>

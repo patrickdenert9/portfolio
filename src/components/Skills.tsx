@@ -29,7 +29,7 @@ const slugs = [
 
 export function Skills() {
   return (
-    <div className="relative flex h-full w-full max-w-[32rem] items-center justify-center overflow-hidden rounded-lg border bg-background px-20 pb-20 pt-8 ">
+    <div id="Skills" className="relative flex h-full w-full max-w-[32rem] items-center justify-center overflow-hidden rounded-lg border bg-background px-20 pb-20 pt-8 ">
       <Typography variant="h2" sx={{ margin:"auto", textAlign:"center" }}>Skills</Typography>
       <IconCloud iconSlugs={slugs} />
       <SkillGrid/>

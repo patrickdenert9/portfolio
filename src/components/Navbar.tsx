@@ -9,6 +9,8 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
+//import { Link } from "@mui/material";
+import { Link} from 'react-scroll'
 
 const pages = ["About", "Skills", "Projects", "Contact"];
 
@@ -46,13 +48,15 @@ function Navbar() {
             }}
           >
             {pages.map((page) => (
-              <Button
+              <Link to={page} smooth={true} offset={-75}><Button
                 key={page}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: "white", display: "block" }}
-              >
+              > 
                 {page}
               </Button>
+              </Link>
+              
             ))}
           </Box>
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -97,7 +101,7 @@ function Navbar() {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+                  <Link to={page} smooth={true} offset={-75}> {page}</Link>
                 </MenuItem>
               ))}
             </Menu>
