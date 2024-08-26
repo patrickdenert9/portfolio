@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import { Skills } from './components/Skills';
 import { Stack } from '@mui/material';
 import About from './components/About';
+import Projects from './components/Projects';
 
 
 
@@ -13,6 +14,7 @@ function App() {
           <Navbar/>
           <About />
         <Skills/>
+        <Projects/>
       </Stack>
     </div>
   );
