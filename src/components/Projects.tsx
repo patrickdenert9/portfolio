@@ -26,13 +26,13 @@ const Projects = () => {
         <Typography variant="h2" sx={{ margin:"auto", textAlign:"center" }}>Projects</Typography>
         {projects.map((project) => (
             <div style={{padding:"10px"}}>
-                <Link href={project.link} underline='none' target="_blank" sx={{ color: "inherit"}}>
-                    <Paper elevation={12} sx={{backgroundColor: "#30302f", color: "#b399d4", width: "75%", margin: "auto"}}>
-                        <Typography variant="h4" sx={{ margin:"auto", textAlign:"center", paddingTop: "10px" }}>{project.name}</Typography>
+                <Paper elevation={12} sx={{backgroundColor: "#30302f", color: "#b399d4", width: "75%", margin: "auto"}}>
+                    <Typography variant="h4" sx={{ margin:"auto", textAlign:"center", paddingTop: "10px" }}>{project.name}</Typography>
+                    <Link href={project.link} underline='none' target="_blank" sx={{ color: "inherit", maxWidth: "75%"}}>
                         <img src={project.image} alt={project.name} style={{ width:"97.5%" ,maxWidth: "90%", height: "500px", display: "block", marginLeft: "auto", marginRight: "auto", padding: "20px"}}/>
-                        <Typography variant="body1" sx={{ margin:"auto", textAlign:"center", paddingBottom: "10px" }}>{project.description}</Typography>
-                    </Paper>
-                </Link>
+                    </Link>                    
+                    <Typography variant="body1" sx={{ margin:"auto", textAlign:"center", paddingBottom: "10px" }}>{project.description}</Typography>
+                </Paper>
             </div>
            
         ))}
