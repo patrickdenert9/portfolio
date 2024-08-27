@@ -8,7 +8,7 @@ const About = () => {
     <div id='About' className="relative flex h-full w-full max-w-[32rem] items-center justify-center overflow-hidden rounded-lg border bg-background px-20 pb-20 pt-8 ">
       <Typography  variant="h2" sx={{ margin:"auto", textAlign:"center" }}>Welcome</Typography>
       <img src={Image} alt='headshot' style={{ height: "500px", display: "block", marginLeft: "auto", marginRight: "auto", borderRadius: "10%", padding: "20px"}}/>
-      <Paper elevation={12} sx={{backgroundColor: "#30302f", color: "#b399d4"}}>
+      <Paper elevation={12} sx={{backgroundColor: "#30302f", color: "#b399d4", maxWidth: "90%", margin: "auto"}}>
       <Typography variant="h4" sx={{ margin:"auto", textAlign:"center" }}>About Me</Typography>
       <Typography variant="body1"  sx={{ margin:"auto", whiteSpace: "pre-line", color: "#b399d4", padding: "20px"}}>I am a recent Computer Engineering Graduate from UMASS Amherst. I am greatly interested in working on projects 
         that will improve the world and people's lives. My main expertise is in the Embedded Systems field, but I enjoy learning and working with any technology field. 
